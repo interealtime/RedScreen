@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RedScreen' target in the 'RedScreen' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

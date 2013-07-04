@@ -1,0 +1,757 @@
+TRedScreen
+v7
+r0
+t289353888.929350
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Info.plist" RedScreen-Info.plist
+cCopyStringsFile "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/MainMenu.xib"
+cCpResource build/Release/RedScreen.app/Contents/Resources/Credits.rtf Credits.rtf
+cCpResource "build/Release/RedScreen.app/Contents/Resources/RedScreen icon.icns" "RedScreen icon.icns"
+cCpResource build/Release/RedScreen.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+cCpResource build/Release/RedScreen.app/Contents/Resources/StatusIcon.png StatusIcon.png
+cProcessPCH /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+cProcessPCH /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fxksgdunmwsqjdepbbrazrxxgyda/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/main.o "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreenAppDelegate.o "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/main.o "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreenAppDelegate.o "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen" normal i386
+cLd "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen" normal ppc
+cCreateUniversalBinary "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen" normal "i386 ppc"
+cGenerateDSYMFile "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app.dSYM" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen"
+cPBXCp build/Release/RedScreen.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+cTouch "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app"
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004B6B362A00000000000000EE
+t1265317418
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A0DE2DA0000000000002D8C
+t1242424026
+s11660
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004628BFC30000000000000556
+t1177075651
+s1366
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/Graphics/IOFramebufferShared.h
+c0000000046F2448100000000000033C7
+t1190282369
+s13255
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c0000000046F2350C000000000000F6CD
+t1190278412
+s63181
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/Headers/graphics/IOGraphicsLib.h
+c0000000046F2350C0000000000007219
+t1190278412
+s29209
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A0DE2E1000000000001ABAC
+t1242424033
+s109484
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c00000000445BD33F0000000000000F1C
+t1146868543
+s3868
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c00000000445BD33F0000000000025159
+t1146868543
+s151897
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c00000000452439E0000000000003715D
+t1160002016
+s225629
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c00000000445BD33F0000000000003F83
+t1146868543
+s16259
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B72336100000000000000EE
+t1265775457
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A0CC109000000000001F9A0
+t1242349833
+s129440
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c0000000047BAEC060000000000000476
+t1203432454
+s1142
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/graphics/IOGraphicsLib.h
+c00000000481BC1270000000000007219
+t1209778471
+s29209
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A0CC115000000000003D3B0
+t1242349845
+s250800
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/Credits.rtf
+c000000004AEB6A4400000000000001B2
+t1256942148
+s434
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/InfoPlist.strings
+c000000004AE9867D000000000000002D
+t1256818301
+s45
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/MainMenu.xib
+c000000004B8EF8FC000000000001B484
+t1267661052
+s111748
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen icon.icns
+c000000004AF2F28F000000000002B8A9
+t1257435791
+s178345
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.h
+c000000004B8EEEF70000000000000482
+t1267658487
+s1154
+i<Cocoa/Cocoa.h>
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m
+c000000004B8EEE80000000000000268D
+t1267658368
+s9869
+i"RedScreenAppDelegate.h"
+i<IOKit/graphics/IOGraphicsLib.h>
+i<ApplicationServices/ApplicationServices.h>
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch
+c000000004AE9867D0000000000000095
+t1256818301
+s149
+i<Cocoa/Cocoa.h>
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/Sparkle.framework
+c000000004B8CF05500000000000000CC
+t1267527765
+s204
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/Sparkle.framework/Sparkle
+c0000000048CC84C200000000000712B4
+t1221362882
+s463540
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/StatusIcon.png
+c000000004B8E5EA100000000000004CE
+t1267621537
+s1230
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/appicon.icns
+c000000004AED703F00000000000361FC
+t1257074751
+s221692
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen
+t1267661087
+s32184
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen.LinkFileList
+c000000004B8EF91800000000000000F0
+t1267661080
+s240
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreenAppDelegate.o
+t1267661087
+s50856
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/main.o
+t1267661087
+s4656
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen
+t1267661087
+s28240
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen.LinkFileList
+c000000004B8EF91800000000000000EE
+t1267661080
+s238
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreenAppDelegate.o
+t1267661087
+s58748
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/main.o
+t1267661087
+s4824
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/StaticAnalyzer/normal/i386/RedScreenAppDelegate.plist
+t1257376306
+s9275
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/StaticAnalyzer/normal/i386/main.plist
+t1257376284
+s275
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app
+t1267661088
+s102
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app.dSYM
+t1267661087
+s102
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Frameworks/Sparkle.framework
+t1267661087
+s204
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Frameworks/Volumes/16GB USB/XCode/OS X/RedScreen/Sparkle.framework/Sparkle.framework
+t2
+s0
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Info.plist
+t1267661080
+s1113
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen
+t1267661087
+s65104
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/PkgInfo
+t1267661080
+s8
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/Credits.rtf
+t1267661082
+s434
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1267661081
+s92
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/English.lproj/MainMenu.nib
+t1267661081
+s21718
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/RedScreen icon.icns
+t1267661082
+s178345
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/RedScreen.app
+t2
+s0
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/StatusIcon.png
+t1267661082
+s1230
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/appicon.icns
+t1257382054
+s221692
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/dsa_pub.pem
+t1267661082
+s1178
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/dsa_pub.pem
+c000000004B8D04C6000000000000049A
+t1267532998
+s1178
+
+N/Volumes/16GB USB/XCode/OS X/RedScreen/main.m
+c000000004AE9867D0000000000000100
+t1256818301
+s256
+i<Cocoa/Cocoa.h>
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch
+t1267622082
+s29927040
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-bwqyrhatcafpanflzttuqvleshwp/RedScreen_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-doglfkmjjdqdcgfytmwfpmuirner/RedScreen_Prefix.pch.gch
+t1267532611
+s33055340
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-egqqwywxcdmqmfbyiqqvhjoikyyb/RedScreen_Prefix.pch.gch
+t1267622081
+s28255760
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fimpzufbalelmaaizwvqlwhfymer/RedScreen_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch
+t1257427383
+s28255760
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch
+t1257427383
+s29927040
+
+N/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-ghysqtuzmebwmngixevjfbljrvnt/RedScreen_Prefix.pch.gch
+t1267532609
+s34640660
+
+N/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch
+t1267661086
+s29927040
+
+N/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch
+t1257382056
+s28255760
+
+N/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fxksgdunmwsqjdepbbrazrxxgyda/RedScreen_Prefix.pch.gch
+t1267661086
+s28255760
+
+N/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fzozzqvitansindiefslmkbvjvqj/RedScreen_Prefix.pch.pth
+t1257376284
+s5686204
+
+N/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch
+t1257382057
+s29927040
+
+NRedScreen-Info.plist
+c000000004B8E61D70000000000000497
+t1267622359
+s1175
+
+CAnalyze "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m"
+s279069105.877274
+e279069106.322388
+r1
+xAnalyze
+x/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:136:3:{136:11-136:89}: warning: Value stored to 'cgErr' is never read
+o                 cgErr = CGSetDisplayTransferByTable(displays[i], 256, redTable, greenTable, blueTable);
+o                 ^       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:183:3:{183:10-183:78}: warning: Value stored to 'dErr' is never read
+o                 dErr = IODisplaySetFloatParameter(service, kNilOptions, key, newBrightness);
+o                 ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:248:3:{248:9-248:48}: warning: Value stored to 'err' is never read
+o                 err = CGReleaseDisplayFadeReservation (token);
+o                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:246:3:{246:9-247:50}: warning: Value stored to 'err' is never read
+o                 err = CGDisplayFade (token, 0.3, kCGDisplayBlendNormal,
+o                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:251:11:{251:27-251:136}: warning: Value stored to 'fadeBackTimer' during its initialization is never read
+o         NSTimer *fadeBackTimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(fadeBack:) userInfo:nil repeats:nil];
+o                  ^               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:264:3:{264:9-264:48}: warning: Value stored to 'err' is never read
+o                 err = CGReleaseDisplayFadeReservation (token);
+o                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:262:3:{262:9-263:45}: warning: Value stored to 'err' is never read
+o                 err = GDisplayFade (token, 0.5, kCGDisplayBlendSolidColor,
+o                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o7 diagnostics generated.
+lSLF07#2@69"Analyze /Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069105#279069106#0(2209"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:136:3:{136:11-136:89}: warning: Value stored to 'cgErr' is never read                 cgErr = CGSetDisplayTransferByTable(displays[i], 256, redTable, greenTable, blueTable);                 ^       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:183:3:{183:10-183:78}: warning: Value stored to 'dErr' is never read                 dErr = IODisplaySetFloatParameter(service, kNilOptions, key, newBrightness);                 ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:248:3:{248:9-248:48}: warning: Value stored to 'err' is never read                 err = CGReleaseDisplayFadeReservation (token);                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:246:3:{246:9-247:50}: warning: Value stored to 'err' is never read                 err = CGDisplayFade (token, 0.3, kCGDisplayBlendNormal,                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:251:11:{251:27-251:136}: warning: Value stored to 'fadeBackTimer' during its initialization is never read         NSTimer *fadeBackTimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(fadeBack:) userInfo:nil repeats:nil];                  ^               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:264:3:{264:9-264:48}: warning: Value stored to 'err' is never read                 err = CGReleaseDisplayFadeReservation (token);                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:262:3:{262:9-263:45}: warning: Value stored to 'err' is never read                 err = GDisplayFade (token, 0.5, kCGDisplayBlendSolidColor,                 ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~7 diagnostics generated.7(0@37"Value stored to 'cgErr' is never read279069106#18446744073709551615#0#1(21@37"Value stored to 'cgErr' is never read279069106#18446744073709551615#0#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#136#3#0#0#0"1(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#136#11#136#88#37"Value stored to 'cgErr' is never read6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#136#3#0#0#10"Dead store0(15"Dead assignment0@36"Value stored to 'dErr' is never read279069106#18446744073709551615#0#1(21@36"Value stored to 'dErr' is never read279069106#18446744073709551615#0#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#183#3#0#0#0"1(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#183#10#183#77#36"Value stored to 'dErr' is never read6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#183#3#0#0#10"Dead store0(15"Dead assignment0@35"Value stored to 'err' is never read279069106#18446744073709551615#0#1(21@35"Value stored to 'err' is never read279069106#18446744073709551615#0#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#248#3#0#0#0"1(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#248#9#248#47#35"Value stored to 'err' is never read6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#248#3#0#0#10"Dead store0(15"Dead assignment0@35"Value stored to 'err' is never read279069106#18446744073709551615#0#1(21@35"Value stored to 'err' is never read279069106#18446744073709551615#0#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#246#3#0#0#0"1(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#246#9#247#49#35"Value stored to 'err' is never read6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#246#3#0#0#10"Dead store0(15"Dead assignment0@71"Value stored to 'fadeBackTimer' during its initialization is never read279069106#18446744073709551615#0#1(21@71"Value stored to 'fadeBackTimer' during its initialization is never read279069106#18446744073709551615#0#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#251#11#0#0#0"1(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#251#27#251#135#71"Value stored to 'fadeBackTimer' during its initialization is never read6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#251#11#0#0#10"Dead store0(19"Dead initialization0@35"Value stored to 'err' is never read279069106#18446744073709551615#0#1(21@35"Value stored to 'err' is never read279069106#18446744073709551615#0#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#264#3#0#0#0"1(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#264#9#264#47#35"Value stored to 'err' is never read6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#264#3#0#0#10"Dead store0(15"Dead assignment0@35"Value stored to 'err' is never read279069106#18446744073709551615#0#1(21@35"Value stored to 'err' is never read279069106#18446744073709551615#0#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#262#3#0#0#0"1(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#262#9#263#44#35"Value stored to 'err' is never read6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m279069104#262#3#0#0#10"Dead store0(15"Dead assignment0#0#61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m4300885448#1629"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -include /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fzozzqvitansindiefslmkbvjvqj/RedScreen_Prefix.pch --analyze "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m" -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/StaticAnalyzer/normal/i386/RedScreenAppDelegate.plist"0#
+
+CAnalyze "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m"
+s279069084.533513
+e279069084.612419
+r1
+xAnalyze
+x/Volumes/16GB USB/XCode/OS X/RedScreen/main.m
+lSLF07#2@53"Analyze /Volumes/16GB USB/XCode/OS X/RedScreen/main.m279069084#279069084#0(0"0(0#0#45"/Volumes/16GB USB/XCode/OS X/RedScreen/main.m4300885448#1597"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -include /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fzozzqvitansindiefslmkbvjvqj/RedScreen_Prefix.pch --analyze "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m" -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/StaticAnalyzer/normal/i386/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies289353879#289353880#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreenAppDelegate.o "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+s289353886.896875
+e289353887.168817
+r1
+xCompileC
+xbuild/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreenAppDelegate.o
+x/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate setActive:]':
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:234: warning: implicit declaration of function 'CGDisplayForceToGray'
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:235: warning: implicit declaration of function 'CGDisplaySetInvertedPolarity'
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate observeValueForKeyPath:ofObject:change:context:]':
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:359: warning: unused variable 'timer'
+lSLF07#2@69"Compile /Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289353886#289353887#0(635"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate setActive:]':/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:234: warning: implicit declaration of function 'CGDisplayForceToGray'/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:235: warning: implicit declaration of function 'CGDisplaySetInvertedPolarity'/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate observeValueForKeyPath:ofObject:change:context:]':/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:359: warning: unused variable 'timer'3(22@55"Implicit declaration of function 'CGDisplayForceToGray'289353886#113#132#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289351168#234#0#234#0#36"implicit declaration of function '*'0(22@63"Implicit declaration of function 'CGDisplaySetInvertedPolarity'289353886#245#140#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289351168#235#0#235#0#36"implicit declaration of function '*'0(22@23"Unused variable 'timer'289353886#535#100#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289351168#359#0#359#0#19"unused variable '*'0(0#0#61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m4300885448#1618"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -include /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m" -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreenAppDelegate.o"0#
+
+CCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/main.o "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+s289353886.895839
+e289353887.003847
+r1
+xCompileC
+xbuild/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/main.o
+x/Volumes/16GB USB/XCode/OS X/RedScreen/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@53"Compile /Volumes/16GB USB/XCode/OS X/RedScreen/main.m289353886#289353887#0(0"0(0#0#45"/Volumes/16GB USB/XCode/OS X/RedScreen/main.m4300885448#1586"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -include /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch -c "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m" -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreenAppDelegate.o "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+s289353887.119585
+e289353887.364606
+r1
+xCompileC
+xbuild/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreenAppDelegate.o
+x/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate setActive:]':
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:234: warning: implicit declaration of function 'CGDisplayForceToGray'
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:235: warning: implicit declaration of function 'CGDisplaySetInvertedPolarity'
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate observeValueForKeyPath:ofObject:change:context:]':
+o/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:359: warning: unused variable 'timer'
+lSLF07#2@69"Compile /Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289353887#289353887#0(635"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate setActive:]':/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:234: warning: implicit declaration of function 'CGDisplayForceToGray'/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:235: warning: implicit declaration of function 'CGDisplaySetInvertedPolarity'/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m: In function '-[RedScreenAppDelegate observeValueForKeyPath:ofObject:change:context:]':/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m:359: warning: unused variable 'timer'3(22@55"Implicit declaration of function 'CGDisplayForceToGray'289353887#113#132#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289351168#234#0#234#0#36"implicit declaration of function '*'0(22@63"Implicit declaration of function 'CGDisplaySetInvertedPolarity'289353887#245#140#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289351168#235#0#235#0#36"implicit declaration of function '*'0(22@23"Unused variable 'timer'289353887#535#100#0(6@61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m289351168#359#0#359#0#19"unused variable '*'0(0#0#61"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m4300885448#1612"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -include /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fxksgdunmwsqjdepbbrazrxxgyda/RedScreen_Prefix.pch -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreenAppDelegate.m" -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreenAppDelegate.o"0#
+
+CCompileC build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/main.o "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+s289353887.003952
+e289353887.119482
+r1
+xCompileC
+xbuild/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/main.o
+x/Volumes/16GB USB/XCode/OS X/RedScreen/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@53"Compile /Volumes/16GB USB/XCode/OS X/RedScreen/main.m289353887#289353887#0(0"0(0#0#45"/Volumes/16GB USB/XCode/OS X/RedScreen/main.m4300885448#1580"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -include /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fxksgdunmwsqjdepbbrazrxxgyda/RedScreen_Prefix.pch -c "/Volumes/16GB USB/XCode/OS X/RedScreen/main.m" -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/main.o"0#
+
+CCompileXIB "/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/MainMenu.xib"
+s289353880.734093
+e289353882.163736
+r1
+xCompileXIB
+x/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib289353880#289353882#0(0"0(0#0#65"/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/MainMenu.xib4300885448#337"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/English.lproj/MainMenu.nib" "/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/MainMenu.xib"0#
+
+CCopyStringsFile "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s289353880.733295
+e289353881.846743
+r1
+xCopyStringsFile
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings289353880#289353881#0(0"0(0#0#70"/Volumes/16GB USB/XCode/OS X/RedScreen/English.lproj/InfoPlist.strings4300885448#373"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Release/RedScreen.app/Contents/Resources/RedScreen icon.icns" "RedScreen icon.icns"
+s289353881.847649
+e289353882.098559
+r1
+xCpResource
+xbuild/Release/RedScreen.app/Contents/Resources/RedScreen icon.icns
+xRedScreen icon.icns
+lSLF07#2@24"Copy RedScreen icon.icns289353881#289353882#0(0"0(0#0#58"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen icon.icns4300885448#366"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen icon.icns" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources"0#
+
+CCpResource build/Release/RedScreen.app/Contents/Resources/Credits.rtf Credits.rtf
+s289353881.846981
+e289353882.114485
+r1
+xCpResource
+xbuild/Release/RedScreen.app/Contents/Resources/Credits.rtf
+xCredits.rtf
+lSLF07#2@16"Copy Credits.rtf289353881#289353882#0(0"0(0#0#50"/Volumes/16GB USB/XCode/OS X/RedScreen/Credits.rtf4300885448#358"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/16GB USB/XCode/OS X/RedScreen/Credits.rtf" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources"0#
+
+CCpResource build/Release/RedScreen.app/Contents/Resources/RedScreen.app build/Release/RedScreen.app
+r0
+
+CCpResource build/Release/RedScreen.app/Contents/Resources/StatusIcon.png StatusIcon.png
+s289353881.850553
+e289353882.099078
+r1
+xCpResource
+xbuild/Release/RedScreen.app/Contents/Resources/StatusIcon.png
+xStatusIcon.png
+lSLF07#2@19"Copy StatusIcon.png289353881#289353882#0(0"0(0#0#53"/Volumes/16GB USB/XCode/OS X/RedScreen/StatusIcon.png4300885448#361"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/16GB USB/XCode/OS X/RedScreen/StatusIcon.png" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources"0#
+
+CCpResource build/Release/RedScreen.app/Contents/Resources/appicon.icns appicon.icns
+s279074854.414378
+e279074854.486100
+r1
+xCpResource
+xbuild/Release/RedScreen.app/Contents/Resources/appicon.icns
+xappicon.icns
+lSLF07#2@17"Copy appicon.icns279074854#279074854#0(0"0(0#0#51"/Volumes/16GB USB/XCode/OS X/RedScreen/appicon.icns4300885448#359"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/16GB USB/XCode/OS X/RedScreen/appicon.icns" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources"0#
+
+CCpResource build/Release/RedScreen.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+s289353881.849061
+e289353882.115438
+r1
+xCpResource
+xbuild/Release/RedScreen.app/Contents/Resources/dsa_pub.pem
+xdsa_pub.pem
+lSLF07#2@16"Copy dsa_pub.pem289353881#289353882#0(0"0(0#0#50"/Volumes/16GB USB/XCode/OS X/RedScreen/dsa_pub.pem4300885448#358"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/16GB USB/XCode/OS X/RedScreen/dsa_pub.pem" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Resources"0#
+
+CCreateUniversalBinary "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen" normal "i386 ppc"
+s289353887.410811
+e289353887.413725
+r1
+xCreateUniversalBinary
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen
+xnormal
+xi386 ppc
+lSLF07#2@92"CreateUniversalBinary build/Release/RedScreen.app/Contents/MacOS/RedScreen normal "i386 ppc"289353887#289353887#0(0"0(0#0#47"/Volumes/16GB USB/XCode/OS X/RedScreen/i386 ppc4300885448#409"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /usr/bin/lipo -create "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen" -output "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen"0#
+
+CGenerateDSYMFile "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app.dSYM" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen"
+s289353887.413826
+e289353887.439131
+r1
+xGenerateDSYMFile
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app.dSYM
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen
+lSLF07#2@102"GenerateDSYMFile build/Release/RedScreen.app.dSYM build/Release/RedScreen.app/Contents/MacOS/RedScreen289353887#289353887#0(0"0(0#0#91"/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen4300885448#251"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/usr/bin/dsymutil "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/MacOS/RedScreen" -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app.dSYM"0#
+
+CLd "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen" normal i386
+s289353887.168910
+e289353887.218783
+r1
+xLd
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen
+xnormal
+xi386
+lSLF07#2@119"Link /Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen289353887#289353887#0(0"0(0#0#0"4300885448#700"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.4u.sdk "-L/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" -filelist "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen.LinkFileList" -mmacosx-version-min=10.4 -framework Cocoa -framework IOKit -framework ApplicationServices -framework Sparkle -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/i386/RedScreen"0#
+
+CLd "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen" normal ppc
+s289353887.364749
+e289353887.410724
+r1
+xLd
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen
+xnormal
+xppc
+old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o
+lSLF07#2@118"Link /Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen289353887#289353887#0(184"ld: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o1(22@170"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o289353887#0#184#0(6@0"289353887#0#0#0#0#0"0(0#0#0"4300885448#697"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.4u.sdk "-L/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" -filelist "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen.LinkFileList" -mmacosx-version-min=10.4 -framework Cocoa -framework IOKit -framework ApplicationServices -framework Sparkle -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/Objects-normal/ppc/RedScreen"0#
+
+CPBXCp "build/Release/RedScreen.app/Contents/Frameworks/Volumes/16GB USB/XCode/OS X/RedScreen/Sparkle.framework/Sparkle.framework" Sparkle.framework
+r0
+
+CPBXCp build/Release/RedScreen.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+s289353887.439216
+e289353888.926385
+r1
+xPBXCp
+xbuild/Release/RedScreen.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework289353887#289353888#0(0"0(0#0#56"/Volumes/16GB USB/XCode/OS X/RedScreen/Sparkle.framework4300885448#365"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/16GB USB/XCode/OS X/RedScreen/Sparkle.framework" "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Info.plist" RedScreen-Info.plist
+s289353880.316959
+e289353880.733197
+r1
+xProcessInfoPlistFile
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Info.plist
+xRedScreen-Info.plist
+lSLF07#2@28"Process RedScreen-Info.plist289353880#289353880#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen-Info.plist4300885448#326"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    builtin-infoPlistUtility RedScreen-Info.plist -genpkginfo "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s289314878.263825
+e289314882.114281
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289314878#289314882#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300907800#1488"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-bwqyrhatcafpanflzttuqvleshwp/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s289141343.911883
+e289141350.707863
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-bwqyrhatcafpanflzttuqvleshwp/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289141343#289141350#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300903632#1444"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-bwqyrhatcafpanflzttuqvleshwp/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-doglfkmjjdqdcgfytmwfpmuirner/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s289225404.556614
+e289225411.215291
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-doglfkmjjdqdcgfytmwfpmuirner/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289225404#289225411#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300907800#1495"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-doglfkmjjdqdcgfytmwfpmuirner/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-egqqwywxcdmqmfbyiqqvhjoikyyb/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s289314878.264855
+e289314881.927964
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-egqqwywxcdmqmfbyiqqvhjoikyyb/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289314878#289314881#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300907800#1496"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-egqqwywxcdmqmfbyiqqvhjoikyyb/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fimpzufbalelmaaizwvqlwhfymer/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s289141343.913139
+e289141350.672144
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fimpzufbalelmaaizwvqlwhfymer/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289141343#289141350#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300903632#1452"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fimpzufbalelmaaizwvqlwhfymer/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s279120180.779261
+e279120183.113198
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch279120180#279120183#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300885448#1440"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s279120180.778138
+e279120183.301246
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch279120180#279120183#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300885448#1445"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-ghysqtuzmebwmngixevjfbljrvnt/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s289225404.554166
+e289225410.164916
+r1
+xProcessPCH
+x/var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-ghysqtuzmebwmngixevjfbljrvnt/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289225404#289225410#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300907800#1487"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/1k/1km2xBLzEwGvgSsj9vJroU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-ghysqtuzmebwmngixevjfbljrvnt/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s289353882.163871
+e289353886.885705
+r1
+xProcessPCH
+x/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289353882#289353886#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300885448#1488"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-akzfhuuazgjogfdiesafgbuvkvju/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s279074854.487759
+e279074857.055443
+r1
+xProcessPCH
+x/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch279074854#279074857#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300885448#1440"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-foorhflpoblxiiefapuucmoaqrwq/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fxksgdunmwsqjdepbbrazrxxgyda/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s289353882.164887
+e289353886.895727
+r1
+xProcessPCH
+x/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fxksgdunmwsqjdepbbrazrxxgyda/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch289353882#289353886#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300885448#1483"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-F/Volumes/16GB USB/XCode/OS X/RedScreen" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/ppc" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fxksgdunmwsqjdepbbrazrxxgyda/RedScreen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fzozzqvitansindiefslmkbvjvqj/RedScreen_Prefix.pch.pth RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s279069082.431909
+e279069084.276447
+r1
+xProcessPCH
+x/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fzozzqvitansindiefslmkbvjvqj/RedScreen_Prefix.pch.pth
+xRedScreen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@31"Precompile RedScreen_Prefix.pch279069082#279069084#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300885448#1481"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-fzozzqvitansindiefslmkbvjvqj/RedScreen_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch RedScreen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s279074854.486186
+e279074857.155430
+r1
+xProcessPCH
+x/var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch
+xRedScreen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@31"Precompile RedScreen_Prefix.pch279074854#279074857#0(0"0(0#0#59"/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch4300885448#1445"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-generated-files.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-own-target-headers.hmap" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-all-target-headers.hmap" -iquote "/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/RedScreen-project-headers.hmap" "-F/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/include" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources/i386" "-I/Volumes/16GB USB/XCode/OS X/RedScreen/build/RedScreen.build/Release/RedScreen.build/DerivedSources" -c "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen_Prefix.pch" -o /var/folders/qL/qLX+P1pNFoa2ojFEd4JuBk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RedScreen_Prefix-gdzouhglxcwffshfamhbeokggsgg/RedScreen_Prefix.pch.gch0#
+
+CTouch "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app"
+s289353888.926616
+e289353888.929315
+r1
+xTouch
+x/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app
+lSLF07#2@72"Touch /Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app289353888#289353888#0(0"0(0#0#0"4300885448#139"    cd "/Volumes/16GB USB/XCode/OS X/RedScreen"    /usr/bin/touch -c "/Volumes/16GB USB/XCode/OS X/RedScreen/build/Release/RedScreen.app"0#
+

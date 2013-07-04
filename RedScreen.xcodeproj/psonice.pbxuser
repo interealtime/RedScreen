@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1600, 866}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* RedScreenAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1600, 805}}";
+			sepNavSelRange = "{1180, 0}";
+			sepNavVisRange = "{0, 1326}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* RedScreenAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1807, 7813}}";
+			sepNavSelRange = "{958, 19}";
+			sepNavVisRange = "{1192, 851}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 763F2B91109A557F002856F4 /* RedScreen */;
+		activeSDKPreference = macosx10.4;
+		activeTarget = 8D1107260486CEB800E47090 /* RedScreen */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* RedScreen */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 763F2BA0109A55B5002856F4 /* Code sense */;
+		executables = (
+			763F2B91109A557F002856F4 /* RedScreen */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1310,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1422,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1382,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 290189562;
+			PBXWorkspaceStateSaveDate = 290189562;
+		};
+		perUserProjectItems = {
+			76121091109BA34E0026F215 /* PBXTextBookmark */ = 76121091109BA34E0026F215 /* PBXTextBookmark */;
+			761B7FDF10A241EB00E7597B /* PBXTextBookmark */ = 761B7FDF10A241EB00E7597B /* PBXTextBookmark */;
+			763FCE27109B569F00CF5F2D /* PBXTextBookmark */ = 763FCE27109B569F00CF5F2D /* PBXTextBookmark */;
+			763FCE32109B572C00CF5F2D /* PBXTextBookmark */ = 763FCE32109B572C00CF5F2D /* PBXTextBookmark */;
+			7654B7DA10A3B41700DF61CA /* PBXTextBookmark */ = 7654B7DA10A3B41700DF61CA /* PBXTextBookmark */;
+			766AB269109DA8160096A875 /* PBXBookmark */ = 766AB269109DA8160096A875 /* PBXBookmark */;
+			766AB26A109DA8160096A875 /* PBXTextBookmark */ = 766AB26A109DA8160096A875 /* PBXTextBookmark */;
+			766AB28C109DADAC0096A875 /* PBXTextBookmark */ = 766AB28C109DADAC0096A875 /* PBXTextBookmark */;
+			766AB28E109DADAC0096A875 /* PBXTextBookmark */ = 766AB28E109DADAC0096A875 /* PBXTextBookmark */;
+			768E88EF114B9F2A00C5D949 /* PBXTextBookmark */ = 768E88EF114B9F2A00C5D949 /* PBXTextBookmark */;
+			76D812E4113FA45900057056 /* PBXTextBookmark */ = 76D812E4113FA45900057056 /* PBXTextBookmark */;
+			76E366B6114BF16100D26E72 /* PlistBookmark */ = 76E366B6114BF16100D26E72 /* PlistBookmark */;
+			76E366C6114C5EB400D26E72 /* PlistBookmark */ = 76E366C6114C5EB400D26E72 /* PlistBookmark */;
+		};
+		sourceControlManager = 763F2B9F109A55B5002856F4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	76121091109BA34E0026F215 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 763FCE8B109BA10800CF5F2D /* Credits.rtf */;
+		name = "Credits.rtf: 2";
+		rLen = 0;
+		rLoc = 66;
+		rType = 0;
+		vrLen = 66;
+		vrLoc = 0;
+	};
+	761B7FDF10A241EB00E7597B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 761B7FE010A241EB00E7597B /* CGDisplayFade.h */;
+		name = "CGDisplayFade.h: 15";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 2321;
+		vrLoc = 0;
+	};
+	761B7FE010A241EB00E7597B /* CGDisplayFade.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGDisplayFade.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGDisplayFade.h;
+		sourceTree = "<absolute>";
+	};
+	763F2B91109A557F002856F4 /* RedScreen */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RedScreen;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	763F2B9F109A55B5002856F4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	763F2BA0109A55B5002856F4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	763F2C4A109AC90F002856F4 /* QSNocturneController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = QSNocturneController.m;
+		path = "/Volumes/16GB USB/XCode/QSNocturneController.m";
+		sourceTree = "<absolute>";
+	};
+	763FCE27109B569F00CF5F2D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 763FCE28109B569F00CF5F2D /* QuickdrawTypes.h */;
+		name = "QuickdrawTypes.h: 111";
+		rLen = 38;
+		rLoc = 3079;
+		rType = 0;
+		vrLen = 2148;
+		vrLoc = 1872;
+	};
+	763FCE28109B569F00CF5F2D /* QuickdrawTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QuickdrawTypes.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/Headers/QuickdrawTypes.h;
+		sourceTree = "<absolute>";
+	};
+	763FCE32109B572C00CF5F2D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 763F2C4A109AC90F002856F4 /* QSNocturneController.m */;
+		name = "QSNocturneController.m: 324";
+		rLen = 17;
+		rLoc = 9831;
+		rType = 0;
+		vrLen = 2175;
+		vrLoc = 8548;
+	};
+	763FCE8B109BA10800CF5F2D /* Credits.rtf */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1821, 211}}";
+			sepNavSelRange = "{66, 0}";
+			sepNavVisRect = "{{0, 0}, {1821, 211}}";
+		};
+	};
+	7654B7DA10A3B41700DF61CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7654B7DB10A3B41700DF61CA /* Power.h */;
+		name = "Power.h: 373";
+		rLen = 101;
+		rLoc = 15626;
+		rType = 0;
+		vrLen = 3679;
+		vrLoc = 14359;
+	};
+	7654B7DB10A3B41700DF61CA /* Power.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Power.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/Headers/Power.h;
+		sourceTree = "<absolute>";
+	};
+	766AB23A109DA5BE0096A875 /* IOGraphicsTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOGraphicsTypes.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/graphics/IOGraphicsTypes.h;
+		sourceTree = "<absolute>";
+	};
+	766AB269109DA8160096A875 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+	};
+	766AB26A109DA8160096A875 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	766AB28C109DADAC0096A875 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 766AB28D109DADAC0096A875 /* IOGraphicsLib.h */;
+		name = "IOGraphicsLib.h: 130";
+		rLen = 3131;
+		rLoc = 8967;
+		rType = 0;
+		vrLen = 1494;
+		vrLoc = 22481;
+	};
+	766AB28D109DADAC0096A875 /* IOGraphicsLib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOGraphicsLib.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/graphics/IOGraphicsLib.h;
+		sourceTree = "<absolute>";
+	};
+	766AB28E109DADAC0096A875 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 766AB23A109DA5BE0096A875 /* IOGraphicsTypes.h */;
+		name = "IOGraphicsTypes.h: 1";
+		rLen = 939;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 0;
+	};
+	768E88EF114B9F2A00C5D949 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* RedScreenAppDelegate.m */;
+		name = "RedScreenAppDelegate.m: 40";
+		rLen = 19;
+		rLoc = 958;
+		rType = 0;
+		vrLen = 2249;
+		vrLoc = 0;
+	};
+	76D812E4113FA45900057056 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* RedScreenAppDelegate.h */;
+		name = "RedScreenAppDelegate.h: 49";
+		rLen = 0;
+		rLoc = 1180;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 0;
+	};
+	76E366B6114BF16100D26E72 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* RedScreen-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleSignature,
+		);
+		name = "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	76E366C6114C5EB400D26E72 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* RedScreen-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleVersion,
+		);
+		name = "/Volumes/16GB USB/XCode/OS X/RedScreen/RedScreen-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8D1107260486CEB800E47090 /* RedScreen */ = {
+		activeExec = 0;
+		executables = (
+			763F2B91109A557F002856F4 /* RedScreen */,
+		);
+	};
+}
