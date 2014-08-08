@@ -280,7 +280,7 @@
 	CGGammaValue gOriginalRedTable[ 256 ];
 	CGGammaValue gOriginalGreenTable[ 256 ];
 	CGGammaValue gOriginalBlueTable[ 256 ];
-	CGTableCount sampleCount;
+	UInt32 sampleCount;
 	CGDisplayErr err;
 	err = CGGetDisplayTransferByTable (display,
 									   256,
